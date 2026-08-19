@@ -14,7 +14,6 @@ body {
 
 .container {
     display: flex;
-    width: 50%;
     max-width: 1100px;
     align-items: center;
     padding: 20px;
@@ -26,7 +25,7 @@ body {
     max-width: 400px;
     padding: 40px 30px;
     border-radius: 15px;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-left: 40px;
     width: 400px;
 }
@@ -55,3 +54,7 @@ button[type="submit"] {
     margin-top: 10px;
 }
 
+#nome {
+    background-color: #ffffff;
+    color: black;
+}
