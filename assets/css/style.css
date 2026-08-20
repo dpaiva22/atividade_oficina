@@ -57,9 +57,16 @@ input {
 
 }
 
-.termos {
-    margin-right: 10px;
-    float: right;
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.card2 {
+    
+    border-radius: 10px;
 }
 
 
