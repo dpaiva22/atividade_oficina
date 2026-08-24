@@ -4,10 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
-
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/styli.css">
 </head>
-
 <body>
 
     <div class="logo">
@@ -16,57 +14,58 @@
 
     <div class="container">
         <div class="card">
+            
+           
+            <form action="#" method="POST">
 
-            <div class="nome">
-                <label for="nome_completo">NOME COMPLETO</label>
-                <input 
-                    type="text" 
-                    name="nome_completo" 
-                    id="nome_completo" 
-                    placeholder="Digite seu nome completo" 
-                    required
-                >
+                <div class="nome">
+                    <label for="nome_completo">NOME COMPLETO</label>
+                    <input 
+                        type="text" 
+                        name="nome_completo" 
+                        id="nome_completo" 
+                        placeholder="Digite seu nome completo" 
+                        required
+                    >
 
-                <label for="email">E-MAIL</label>
-                <input 
-                    type="email" 
-                    name="email" 
-                    id="email" 
-                    placeholder="Exemplo@email.com" 
-                    required
-                >
+                    <label for="email">E-MAIL</label>
+                    <input 
+                        type="email" 
+                        name="email" 
+                        id="email" 
+                        placeholder="Exemplo@email.com" 
+                        required
+                    >
 
-                <label for="senha">SENHA</label>
-                <input 
-                    type="password" 
-                    name="senha" 
-                    id="senha" 
-                    placeholder="Digite sua senha" 
-                    minlength="8"
-                    required
-                >
+                    <label for="senha">SENHA</label>
+                    <input 
+                        type="password" 
+                        name="senha" 
+                        id="senha" 
+                        placeholder="Digite sua senha" 
+                        minlength="8"
+                        required
+                    >
 
-                <label for="confirmar_senha">CONFIRMAR SENHA</label>
-                <input 
-                    type="password" 
-                    name="confirmar_senha" 
-                    id="confirmar_senha" 
-                    placeholder="Confirme sua senha" 
-                    minlength="8"
-                    required
-                >
+                    <label for="confirmar_senha">CONFIRMAR SENHA</label>
+                    <input 
+                        type="password" 
+                        name="confirmar_senha" 
+                        id="confirmar_senha" 
+                        placeholder="Confirme sua senha" 
+                        minlength="8"
+                        required
+                    >
 
-                <label for="telefone">TELEFONE</label>
-                <input 
-                    type="tel" 
-                    name="telefone" 
-                    id="telefone" 
-                    placeholder="(DDD) Telefone" 
-                    required
-                >
-            </div>
-
-            <div class="card2">
+                    <label for="telefone">TELEFONE</label>
+                    <input 
+                        type="tel" 
+                        name="telefone" 
+                        id="telefone" 
+                        placeholder="(DDD) Telefone" 
+                        required
+                    >
+                </div>
 
                 <div class="cep">
                     <label for="cep">ENDEREÇO</label>
@@ -118,19 +117,19 @@
                     >
                 </div>
 
-            </div>
+                <div class="termos">
+                    <input 
+                        type="checkbox" 
+                        name="termos_de_uso" 
+                        id="termos_de_uso"
+                        required
+                    >
+                    <label for="termos_de_uso">ACEITO OS TERMOS DE USO</label>
+                </div>
 
-            <div class="termos">
-                <label for="termos_de_uso">ACEITO OS TERMOS DE USO</label>
-                <input 
-                    type="checkbox" 
-                    name="termos_de_uso" 
-                    id="termos_de_uso"
-                    required
-                >
-            </div>
+                <button type="submit">CADASTRAR</button>
 
-            <button type="submit">CADASTRAR</button>
+            </form>
 
         </div>
     </div>
