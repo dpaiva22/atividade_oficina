@@ -6,8 +6,9 @@
 }
 
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: #3b251b;
     color: white;
+    font-family: Arial, sans-serif
     
     
 }
@@ -15,7 +16,7 @@ body{
 header {
     display: flex;
     justify-content: space-between;
-    background-color: violet;
+    background-color: #2b1a12;
     height: 7rem;
     align-items: center;
     padding: 4rem;
@@ -70,7 +71,6 @@ h2 {
     color: black;
     display: flex;
     flex-direction: column;
-
 }
 
 
@@ -95,21 +95,22 @@ button [id="opcao_desejada"] {
     flex-direction: row;
     align-items: center;
     gap: 20px;
+    
 }
 
 
 .neyma {
-    width: 220px;
+    width: 200px;
+    align-items: center;
+    transition: 0.4s ease-in-out;
 }
 
 .neyma_logo {
-    height: 100px;
-    width: 300px;
+    height: 100px
 }
 
 
-.card :hover {
-    transition: 0.6s ease-in-out;
-    width: 250px;
+.card:hover .neyma {
+    width: 220px;
 }
 
