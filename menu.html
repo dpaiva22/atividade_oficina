@@ -7,13 +7,15 @@
     <script src="https://kit.fontawesome.com/ecba8b4366.js" crossorigin="anonymous"></script>
     <title>oi oi oi</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css&quot;" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.css">
 </head>
 <body>
     <header>
             
         <div class="menu">
-            <i class="fa-solid fa-bars"></i>
+            <a href="menu.html">
+                <i class="fa-solid fa-bars"></i>
+            </a>
         </div>
 
         <div class="logo">
@@ -21,7 +23,7 @@
         </div>
 
         <div class="login">
-            <div id="ah"><a href="login.html"><button>Entrar</button></a></div>
+            <div id="ah"><a href="login.html"><button id="btn_entrar">Entrar</button></a></div>
         </div>
     </header>
     
@@ -37,14 +39,14 @@
                     Como você quer seu pedido? 
                 </h2>
 
-                <button>Pedir e retirar</button>
-                <button>Delivery</button>
+                <button id="pedir_retirar">Pedir e retirar</button>
+                <button id="delivery">Delivery</button>
             </label>   
         </div>
 
         <div class="opcao_desejada">
             <input type="text" name="opcao_desejada" id="opcao_desejada" required placeholder="Localizar endereço">
-            <button id="opcao_desejada">Começar</button>
+            <button id="btn_comecar">Começar</button>
         </div>
 
         <div class="cards">
@@ -128,6 +130,17 @@
     </div>
     
     <footer>
+        <div class="sobre">
+            <a href="sobre.html">Sobre nós</a>
+        </div>
+
+        <div class="contato">
+            <a href="contato.html">Contato</a>
+        </div>
+
+        <div class="instagram">
+            <a href=""></a>
+        </div>
 
     </footer>
 </body>

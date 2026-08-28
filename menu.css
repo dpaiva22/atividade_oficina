@@ -52,15 +52,18 @@ a {
 input#pesquisar {
     padding: 10px;
     border-radius: 10px;
+    width: 300px;
 }
 
 button {
     padding: 10px 40px;
     margin: 3px;
+    background-color: beige;
 }
 
 h2 {
     font-size: 3rem;
+    padding: 15px 0px;
 }
 
 
@@ -71,11 +74,14 @@ h2 {
     color: black;
     display: flex;
     flex-direction: column;
+    padding: 30px;
+    border-radius: 20px;
+    
 }
 
 
 [name="opcao_desejada"] {
-    width: 350px;
+    width: 500px;
     height: 2.6rem;
     border-radius: 10px;
     padding: 10px;
@@ -95,6 +101,7 @@ button [id="opcao_desejada"] {
     flex-direction: row;
     align-items: center;
     gap: 20px;
+    justify-content: center;
     
 }
 
@@ -103,6 +110,8 @@ button [id="opcao_desejada"] {
     width: 200px;
     align-items: center;
     transition: 0.4s ease-in-out;
+    border-radius: 10px;
+    margin: 5px;
 }
 
 .neyma_logo {
@@ -112,5 +121,46 @@ button [id="opcao_desejada"] {
 
 .card:hover .neyma {
     width: 220px;
+    
 }
 
+
+.svg-inline--fa {
+    box-sizing: content-box;
+    display: var(--fa-display, inline-block);
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+    width: var(--fa-width, 1.25em);
+    color: beige;
+
+}
+
+footer{
+        display: flex;
+    gap: 50px;
+    justify-content: center;
+    background-color: orangered;
+}
+
+#btn_entrar {
+    padding: 10px 40px;
+    margin: 3px;
+    background-color: beige;
+    border-radius: 10px;
+}
+
+#pedir_retirar, #delivery {
+    padding: 10px 40px;
+    margin: 3px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    
+}
+
+#btn_comecar {
+    padding: 10px 40px;
+    margin: 3px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
