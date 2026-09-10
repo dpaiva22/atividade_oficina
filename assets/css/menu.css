@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+body{
+    background-color: #3b251b;
+    color: white;
+    font-family: Arial, sans-serif
+    
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2b1a12;
+    height: 7rem;
+    align-items: center;
+    padding: 4rem;
+    align-content: center
+    
+    ;
+    
+}
+
+.pesquisar {
+    display: flex;
+    padding: 10px;
+    justify-content: flex-end;
+    gap: 10px;
+    
+
+
+}
+
+
+a {
+    text-decoration: none;
+    color: violet;
+    display: flex;
+}
+
+
+
+.perfil , .menu {
+    font-size: 43px;
+}
+
+#campo_busca {
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+button {
+    padding: 10px 40px;
+    margin: 3px;
+    background-color: beige;
+}
+
+h2 {
+    font-size: 3rem;
+    padding: 15px 0px;
+}
+
+
+
+.card {
+    margin: 20px;
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 20px;
+    
+}
+
+
+[name="opcao_desejada"] {
+    width: 500px;
+    height: 2.6rem;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+button [id="opcao_desejada"] {
+    border-radius: 10px;
+    padding: 10px 30px;
+     
+}
+
+.cards {
+    margin: 20px;
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+
+.neyma {
+    width: 200px;
+    align-items: center;
+    transition: 0.4s ease-in-out;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.neyma_logo {
+    height: 100px
+}
+
+
+.card:hover .neyma {
+    width: 220px;
+    
+    
+}
+
+
+.svg-inline--fa {
+    box-sizing: content-box;
+    display: var(--fa-display, inline-block);
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+    width: var(--fa-width, 1.25em);
+    color: beige;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2b1a12;
+    height: 7rem;
+    align-items: center;
+    padding: 4rem;
+    align-content: center;
+;
+}
+
+#btn_entrar {
+    padding: 10px 40px;
+    margin: 3px;
+    background-color: beige;
+    border-radius: 10px;
+}
+
+#pedir_retirar, #delivery {
+    padding: 10px 40px;
+    margin: 3px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    
+}
+
+#btn_comecar {
+    padding: 10px 40px;
+    margin: 3px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
