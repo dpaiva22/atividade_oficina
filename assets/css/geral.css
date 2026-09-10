@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-
+    box-sizing: border-box;
 }
 
 .header {
@@ -11,7 +11,7 @@
   padding: 1rem 2rem;
   background-color: #3b251b;
   border-bottom: 1px solid #5a3c2e;
-  height: 80px;
+  height: 100px;
   gap: 1rem;
 
 }
@@ -40,7 +40,7 @@
 }
 
 .logo img {
-    max-height: 90px; 
+    max-height: 80px; 
     width: auto;
 }
 
@@ -53,3 +53,26 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  right: 20px;
+  position: absolute;
+}
+
+.user-profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #ffffff;
+}
+
+
