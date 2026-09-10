@@ -13,18 +13,7 @@ body{
     
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    background-color: #2b1a12;
-    height: 7rem;
-    align-items: center;
-    padding: 4rem;
-    align-content: center
-    
-    ;
-    
-}
+
 
 .pesquisar {
     display: flex;
@@ -36,12 +25,20 @@ header {
 
 }
 
-
-a {
+#a-card {
     text-decoration: none;
-    color: violet;
-    display: flex;
+    color: black;
 }
+
+#kkk {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+
+
 
 
 
@@ -119,8 +116,8 @@ button [id="opcao_desejada"] {
 }
 
 
-.card:hover .neyma {
-    width: 220px;
+.card:hover #kkk {
+    transform: scale(1.1);
     
     
 }
@@ -153,6 +150,7 @@ footer {
     margin: 3px;
     background-color: beige;
     border-radius: 10px;
+    font-weight: bold;
 }
 
 #pedir_retirar, #delivery {
@@ -168,4 +166,11 @@ footer {
     margin: 3px;
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+    box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.5);
+    background-color: springgreen;
 }
